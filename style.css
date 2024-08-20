@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('bg.jpg') no-repeat center center fixed; /* Replace with your image path */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 600px;
+    background-color: rgb(250, 157, 157);
+}
+h1 {
+    margin-bottom:100px;
+    text-align: center;
+    text-decoration: underline;
+}
+h3{
+    margin-left: 10px;
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+#Input-field {
+    flex: 1;
+    padding: 10px;
+    border: 3px solid #07e3f7;
+    border-radius: 8px;
+}
+#add-button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    border: solid rgb(33, 251, 254);
+    background-color: rgb(50, 244, 244);
+    color: rgba(0, 0, 0, 0.822);
+    border-radius: 10px;
+    cursor: pointer;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+button.remove {
+    margin-left: auto;
+    background: none;
+    border: none;
+    color: #dc3545;
+    cursor: pointer;
+}
+
+button.remove-btn:hover {
+    color: #c82333;
+}
